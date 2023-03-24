@@ -10,21 +10,26 @@ class ChatbotServer(Node):
         self.srv = self.create_service(ChatGPT, "chatbot", self.handle_request)
 
         # Set up OpenAI API credentials
-        openai.api_key = "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"
+        openai.api_key = "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"
 
     def handle_request(self, request, response):
         try:
-            # Call the OpenAI chatbot API
+            # Call the OpenAI chatbot API with the prompt
             prompt = f"Q: {request.question}\nA:"
-            response_text = openai.Completion.create(
+            response_text = ""
+            completions = openai.Completion.create(
                 engine="davinci",
                 prompt=prompt,
                 max_tokens=1024,
                 n=1,
                 stop=None,
                 temperature=0.5,
-            ).choices[0].text.strip()
-
+            ).choices
+            for completion in completions:
+                # Only use the first response generated
+                response_text = completion.text.strip()
+                break
+            
             # Set the response message
             response.answer = response_text
         except Exception as e:
@@ -32,6 +37,7 @@ class ChatbotServer(Node):
             response.answer = "Sorry, I couldn't understand the question."
 
         return response
+
 
 def main(args=None):
     rclpy.init(args=args)
