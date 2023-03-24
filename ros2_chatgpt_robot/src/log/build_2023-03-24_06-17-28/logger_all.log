@@ -1,0 +1,123 @@
+[0.337s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'chatgpt_robot_msg']
+[0.337s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=64, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['chatgpt_robot_msg'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fee038aa110>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fee040ac970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fee040ac970>>, mixin_verb=('build',))
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.367s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.368s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.369s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/work/ros2_ws/src'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_msg) by extension 'ros'
+[0.401s] DEBUG:colcon.colcon_core.package_identification:Package 'chatgpt_robot_msg' with type 'ros.ament_python' and name 'chatgpt_robot_msg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(chatgpt_robot_pubsub) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'chatgpt_robot_pubsub' with type 'ros.ament_python' and name 'chatgpt_robot_pubsub'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.427s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'chatgpt_robot_pubsub' in 'chatgpt_robot_pubsub'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'cmake_target' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'chatgpt_robot_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] DEBUG:colcon.colcon_core.verb:Building package 'chatgpt_robot_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/work/ros2_ws/src/build/chatgpt_robot_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/work/ros2_ws/src/install/chatgpt_robot_msg', 'merge_install': False, 'path': '/work/ros2_ws/src/chatgpt_robot_msg', 'symlink_install': False, 'test_result_base': None}
+[0.429s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.432s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/work/ros2_ws/src/chatgpt_robot_msg' with build type 'ament_python'
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatgpt_robot_msg', 'ament_prefix_path')
+[0.438s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/hook/ament_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.707s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/work/ros2_ws/src/chatgpt_robot_msg'
+[0.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/work/ros2_ws/src/chatgpt_robot_msg': PYTHONPATH=/work/ros2_ws/src/build/chatgpt_robot_msg/prefix_override:/work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/chatgpt_robot_msg build --build-base /work/ros2_ws/src/build/chatgpt_robot_msg/build install --record /work/ros2_ws/src/build/chatgpt_robot_msg/install.log --single-version-externally-managed
+[1.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/work/ros2_ws/src/chatgpt_robot_msg' returned '0': PYTHONPATH=/work/ros2_ws/src/build/chatgpt_robot_msg/prefix_override:/work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/chatgpt_robot_msg build --build-base /work/ros2_ws/src/build/chatgpt_robot_msg/build install --record /work/ros2_ws/src/build/chatgpt_robot_msg/install.log --single-version-externally-managed
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg' for CMake module files
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg' for CMake config files
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg/lib'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg/lib/pkgconfig/chatgpt_robot_msg.pc'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages'
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatgpt_robot_msg', 'pythonpath')
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/hook/pythonpath.ps1'
+[1.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/hook/pythonpath.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/hook/pythonpath.sh'
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/work/ros2_ws/src/install/chatgpt_robot_msg/bin'
+[1.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chatgpt_robot_msg)
+[1.270s] INFO:colcon.colcon_core.shell:Creating package script '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/package.ps1'
+[1.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/package.dsv'
+[1.272s] INFO:colcon.colcon_core.shell:Creating package script '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/package.sh'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/package.bash'
+[1.273s] INFO:colcon.colcon_core.shell:Creating package script '/work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg/package.zsh'
+[1.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/work/ros2_ws/src/install/chatgpt_robot_msg/share/colcon-core/packages/chatgpt_robot_msg)
+[1.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.275s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.289s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.289s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[1.290s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.293s] INFO:colcon.colcon_core.shell:Creating prefix script '/work/ros2_ws/src/install/local_setup.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating prefix util module '/work/ros2_ws/src/install/_local_setup_util_ps1.py'
+[1.298s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/work/ros2_ws/src/install/setup.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/work/ros2_ws/src/install/local_setup.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating prefix util module '/work/ros2_ws/src/install/_local_setup_util_sh.py'
+[1.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/work/ros2_ws/src/install/setup.sh'
+[1.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/work/ros2_ws/src/install/local_setup.bash'
+[1.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/work/ros2_ws/src/install/setup.bash'
+[1.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/work/ros2_ws/src/install/local_setup.zsh'
+[1.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/work/ros2_ws/src/install/setup.zsh'

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'chatgpt_robot_msg = chargpt_robot_msg.chatgpt_ros2:main',
         ],
     },
 )

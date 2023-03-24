@@ -1,0 +1,40 @@
+running egg_info
+creating ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info
+writing ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/PKG-INFO
+writing dependency_links to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/dependency_links.txt
+writing entry points to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/entry_points.txt
+writing requirements to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/requires.txt
+writing top-level names to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/top_level.txt
+writing manifest file '../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/SOURCES.txt'
+reading manifest file '../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/SOURCES.txt'
+writing manifest file '../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /work/ros2_ws/src/build/chatgpt_robot_msg/build
+creating /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib
+creating /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+copying chatgpt_robot_msg/chatgpt_ros2.py -> /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+copying chatgpt_robot_msg/__init__.py -> /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+copying chatgpt_robot_msg/chatgpt.py -> /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+copying /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg/chatgpt_ros2.py -> /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+copying /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg/__init__.py -> /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+copying /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg/chatgpt.py -> /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+byte-compiling /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg/chatgpt_ros2.py to chatgpt_ros2.cpython-310.pyc
+byte-compiling /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg/chatgpt.py to chatgpt.cpython-310.pyc
+running install_data
+creating /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index
+creating /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index/resource_index
+creating /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index/resource_index/packages
+copying resource/chatgpt_robot_msg -> /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index/resource_index/packages
+copying package.xml -> /work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg
+running install_egg_info
+Copying ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info to /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing chatgpt_robot_msg script to /work/ros2_ws/src/install/chatgpt_robot_msg/lib/chatgpt_robot_msg
+writing list of installed files to '/work/ros2_ws/src/build/chatgpt_robot_msg/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+chatgpt_robot_msg = chargpt_robot_msg.chatgpt_ros2:main
+

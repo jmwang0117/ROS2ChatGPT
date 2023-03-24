@@ -1,0 +1,42 @@
+[0.570s] Invoking command in '/work/ros2_ws/src/chatgpt_robot_msg': PYTHONPATH=/work/ros2_ws/src/build/chatgpt_robot_msg/prefix_override:/work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/chatgpt_robot_msg build --build-base /work/ros2_ws/src/build/chatgpt_robot_msg/build install --record /work/ros2_ws/src/build/chatgpt_robot_msg/install.log --single-version-externally-managed
+[0.758s] running egg_info
+[0.759s] creating ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info
+[0.759s] writing ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/PKG-INFO
+[0.759s] writing dependency_links to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/dependency_links.txt
+[0.760s] writing entry points to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/entry_points.txt
+[0.760s] writing requirements to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/requires.txt
+[0.760s] writing top-level names to ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/top_level.txt
+[0.761s] writing manifest file '../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/SOURCES.txt'
+[0.761s] reading manifest file '../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/SOURCES.txt'
+[0.761s] writing manifest file '../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.763s] creating /work/ros2_ws/src/build/chatgpt_robot_msg/build
+[0.763s] creating /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib
+[0.763s] creating /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+[0.763s] copying chatgpt_robot_msg/chatgpt_ros2.py -> /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+[0.764s] copying chatgpt_robot_msg/__init__.py -> /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+[0.764s] copying chatgpt_robot_msg/chatgpt.py -> /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg
+[0.764s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.765s]   warnings.warn(
+[0.765s] running install
+[0.765s] running install_lib
+[0.765s] creating /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+[0.766s] copying /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg/chatgpt_ros2.py -> /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+[0.766s] copying /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg/__init__.py -> /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+[0.766s] copying /work/ros2_ws/src/build/chatgpt_robot_msg/build/lib/chatgpt_robot_msg/chatgpt.py -> /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg
+[0.767s] byte-compiling /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg/chatgpt_ros2.py to chatgpt_ros2.cpython-310.pyc
+[0.767s] byte-compiling /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg/__init__.py to __init__.cpython-310.pyc
+[0.767s] byte-compiling /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg/chatgpt.py to chatgpt.cpython-310.pyc
+[0.768s] running install_data
+[0.768s] creating /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index
+[0.768s] creating /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index/resource_index
+[0.768s] creating /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index/resource_index/packages
+[0.769s] copying resource/chatgpt_robot_msg -> /work/ros2_ws/src/install/chatgpt_robot_msg/share/ament_index/resource_index/packages
+[0.769s] copying package.xml -> /work/ros2_ws/src/install/chatgpt_robot_msg/share/chatgpt_robot_msg
+[0.769s] running install_egg_info
+[0.769s] Copying ../build/chatgpt_robot_msg/chatgpt_robot_msg.egg-info to /work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages/chatgpt_robot_msg-0.0.0-py3.10.egg-info
+[0.770s] running install_scripts
+[0.791s] Installing chatgpt_robot_msg script to /work/ros2_ws/src/install/chatgpt_robot_msg/lib/chatgpt_robot_msg
+[0.792s] writing list of installed files to '/work/ros2_ws/src/build/chatgpt_robot_msg/install.log'
+[0.816s] Invoked command in '/work/ros2_ws/src/chatgpt_robot_msg' returned '0': PYTHONPATH=/work/ros2_ws/src/build/chatgpt_robot_msg/prefix_override:/work/ros2_ws/src/install/chatgpt_robot_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/chatgpt_robot_msg build --build-base /work/ros2_ws/src/build/chatgpt_robot_msg/build install --record /work/ros2_ws/src/build/chatgpt_robot_msg/install.log --single-version-externally-managed
