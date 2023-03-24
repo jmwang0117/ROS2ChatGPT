@@ -18,7 +18,7 @@ class ChatGPTNode(Node):
         super().__init__('chatgpt_node')
         self.sub = self.create_subscription(String, '/input_text', self.listener_callback, 10)
         self.pub = self.create_publisher(String, '/output_text', 10)
-        with open("config.json", "r") as f:
+        with open("/work/ros2_ws/src/chatgpt_robot_msg/chatgpt_robot_msg/config.json", "r") as f:
                     config = json.load(f)
 
         print("Initializing ChatGPT...")

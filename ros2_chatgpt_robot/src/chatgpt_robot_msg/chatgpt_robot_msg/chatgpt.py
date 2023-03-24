@@ -16,6 +16,7 @@ class ChatGPT:
         self.api_key = api_key
         self.endpoint = 'https://api.openai.com/v1/chat/completions'
 
+
         self.role_system = {'role': 'system', 'content': None}
         self.assistant_list = []
         self.num_hold_pass_res = 0
