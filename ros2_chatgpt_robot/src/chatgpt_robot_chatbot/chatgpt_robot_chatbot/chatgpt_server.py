@@ -1,16 +1,16 @@
 import rclpy
 from rclpy.node import Node
-from chatbot_interfaces.srv import Chatbot
+from chatgpt_interfaces.srv import ChatGPT
 import openai
 
 class ChatbotServer(Node):
 
     def __init__(self):
         super().__init__("chatbot_server")
-        self.srv = self.create_service(Chatbot, "chatbot", self.handle_request)
+        self.srv = self.create_service(ChatGPT, "chatbot", self.handle_request)
 
         # Set up OpenAI API credentials
-        openai.api_key = "your_openai_api_key_here"
+        openai.api_key = "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"
 
     def handle_request(self, request, response):
         try:
@@ -26,10 +26,10 @@ class ChatbotServer(Node):
             ).choices[0].text.strip()
 
             # Set the response message
-            response.response = response_text
+            response.answer = response_text
         except Exception as e:
             self.get_logger().error(f"Error: {e}")
-            response.response = "Sorry, I couldn't understand the question."
+            response.answer = "Sorry, I couldn't understand the question."
 
         return response
 
